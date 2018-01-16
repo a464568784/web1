@@ -1,0 +1,138 @@
+a{
+	text-decoration: none;
+}
+#searchTop{
+	margin-top: 0px;
+}
+#img1{
+	float: left;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.imgbox{
+	max-height: 300px;
+	width: 100%;
+	max-width: 200px;
+}
+.divimg{
+	text-align: center;
+}
+.hotword{
+	font-size: 30px;
+	color: #000000;
+	margin-left: 20px;
+}
+.hotcolor{
+	border-bottom: 1px solid #EDF4ED;
+}
+.img-2{
+	display: none;
+}
+.hotword:first-child{
+	color: coral;
+	border-bottom: 3px solid coral;
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+	.sgininTop h3{
+		display: inline;
+	}
+	.sgininTop button{
+		position: absolute;
+		right: 0px;
+	}
+	.sginin{
+		background-color: white;
+		position: relative;
+		display: none;
+		margin: 0px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.sginin{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 415px;
+	height: 400px;
+	background-color: white;
+	z-index: 9999;
+	display: none;
+}
+.sgininTop{
+	margin-bottom: 80px;
+	background-color: #F7F7F7;
+	height: 50px;
+	padding-top: 15px;
+}
+.sgininTop h3{
+	display: inline;
+	position: relative;
+	left: 30%;
+}
+.sgininTop button{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	border: 0px;
+	background-color: #F7F7F7;
+}
+.form-group label{
+	text-align: center!important;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+	.joininTop h3{
+		display: inline;
+	}
+	.joininTop button{
+		position: absolute;
+		right: 0px;
+	}
+	.joinin{
+		background-color: white;
+		position: relative;
+		display: none;
+		margin: 0px;
+	}
+	.Jwarning{
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px){
+	.joinin{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 415px;
+	height: 480px;
+	background-color: white;
+	z-index: 9999;
+	display: none;
+}
+.joininTop{
+	margin-bottom: 20px;
+	background-color: #F7F7F7;
+	height: 50px;
+	padding-top: 15px;
+}
+.joininTop h3{
+	display: inline;
+	position: relative;
+	left: 30%;
+}
+.joininTop button{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	border: 0px;
+	background-color: #F7F7F7;
+}
+.form-group label{
+	text-align: center!important;
+}
+.Jwarning{
+	opacity: 0;
+}
+}
+
